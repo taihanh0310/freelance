@@ -19,7 +19,7 @@
         
         <!-- App CSS -->
         <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/font-awesome.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/modern-business.css') }}">
         <link rel="stylesheet" href="{{ asset('css/common.css') }}">
         <!-- End App CSS -->
@@ -32,6 +32,7 @@
     <body>
         @include('includes.nav')
         @include('includes.facebook')
+        @yield('header')
         <!-- Page Content -->
         <div class="container">
             @yield('content')

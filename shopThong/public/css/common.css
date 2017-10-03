@@ -26,3 +26,43 @@ and open the template in the editor.
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 }
+
+.header .social {
+    padding: 19.5px 0 0;
+    margin-top: -3px;
+    float: right;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+}
+.social li {
+    display: inline-block;
+    margin-right: 12px;
+    position: relative;
+}
+
+.social a {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    color: #fff;
+}
+
+.social .fa {
+    background: #d5d5d5;
+    display: block;
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.col-sm-push-9 {
+    left: 75%;
+}

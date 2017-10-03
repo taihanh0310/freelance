@@ -77,7 +77,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'vi',
 
     /*
     |--------------------------------------------------------------------------
@@ -90,7 +90,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'vi',
 
     /*
     |--------------------------------------------------------------------------
@@ -123,7 +123,14 @@ return [
     'log' => env('APP_LOG', 'single'),
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
-
+    
+    /**
+     * Site config 
+     */
+    'product_home_limit' => env('APP_HOME_LIMIT', 6),
+    /**
+     * End site config
+     */
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
