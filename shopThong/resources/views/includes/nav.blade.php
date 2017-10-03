@@ -8,14 +8,27 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html">SẢN PHẨM</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="about.html">BÁO GIÁ MÁY NHÔM</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="services.html">TƯ VẤN</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">KHÁCH HÀNG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+            </li>
+            <!-- social media icons -->
+            <ul class="nav navbar-nav navbar-right social">
+                <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
+            </ul>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Portfolio
