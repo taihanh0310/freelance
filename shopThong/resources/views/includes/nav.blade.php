@@ -20,7 +20,10 @@
               <a class="nav-link" href="contact.html">KHÁCH HÀNG</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+              <a class="nav-link" href="{{route('home.about')}}">VE CHUNG TOI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{route('home.contact')}}">LIÊN HỆ</a>
             </li>
             <li class="nav-item">
               <a href="//www.facebook.com/evolable.asia.eva/" target="_blank" class="nav-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>

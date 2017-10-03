@@ -29,10 +29,10 @@ class HomeController extends SiteController {
     }
 
     public function about(){
-        // about
+        return view('pages.about');
     }
     
     public function contact(){
-        
+        return view('pages.contact');
     }
 }
