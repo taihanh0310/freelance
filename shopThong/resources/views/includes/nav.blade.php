@@ -1,26 +1,5 @@
-<header>
-            <div class="header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-push-9 col-sm-3">
-                            <ul class="social">
-                                <li><a href="//www.facebook.com/evolable.asia.eva/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                </li>
-                                <li><a href="//www.linkedin.com/company/evolable-asia" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </li>
-                                <li><a href="//www.youtube.com/channel/UCtgpCyeLrUyl8-RatpZtqjQ" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                                </li>
-                                <li>
-                                    <a href="//www.instagram.com/evolable.asia/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
 <!-- Navigation -->
-    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="{{route('home.index')}}">{{Voyager::setting('site.title', 'VOYAGER')}}</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,6 +21,21 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+            </li>
+            <li class="nav-item">
+              <a href="//www.facebook.com/evolable.asia.eva/" target="_blank" class="nav-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="//www.linkedin.com/company/evolable-asia" target="_blank" class="nav-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="//www.youtube.com/channel/UCtgpCyeLrUyl8-RatpZtqjQ" target="_blank" class="nav-link"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="//www.instagram.com/evolable.asia/" target="_blank" class="nav-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="{{route('home.contact')}}" target="_blank" class="nav-link"><i class="fa fa-mobile" aria-hidden="true"></i> Hot line: </a>
             </li>
           </ul>
         </div>

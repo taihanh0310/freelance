@@ -32,7 +32,7 @@ class HomeController extends SiteController {
         // about
     }
     
-    public function QAs(){
+    public function contact(){
         
     }
 }

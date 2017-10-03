@@ -12,6 +12,7 @@
 */
 
 Route::get('/', ['as' => 'home.index', 'uses' => 'HomeController@index']);
+Route::get('/lien-he', ['as' => 'home.contact', 'uses' => 'HomeController@contact']);
 Route::get('bai-viet/{category_slug}', ['as' => 'danh_muc_bai_viet', 'uses' => 'ProductController@index']);
 Route::get('bai-viet/{category_slug}/{post_slug}', ['as' => 'danh_muc_bai_viet.bai_viet', 'uses' => 'ProductController@listPost']);
 
