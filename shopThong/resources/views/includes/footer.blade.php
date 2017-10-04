@@ -18,7 +18,7 @@
             <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">Company Name © 2015</p>
+        <p class="footer-company-name">Company Name © {{date('Y')}}</p>
     </div>
 
     <div class="footer-center">
@@ -30,12 +30,12 @@
 
         <div>
             <i class="fa fa-phone"></i>
-            <p>+1 555 123456</p>
+            <p>{{setting('site.hot_line')}}</p>
         </div>
 
         <div>
             <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">support@company.com</a></p>
+            <p><a href="mailto:{{setting('site.email')}}>{{setting('site.email')}}</a></p>
         </div>
 
     </div>

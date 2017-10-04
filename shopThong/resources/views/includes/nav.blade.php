@@ -38,7 +38,7 @@
               <a href="//www.instagram.com/evolable.asia/" target="_blank" class="nav-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </li>
             <li class="nav-item">
-              <a href="{{route('home.contact')}}" target="_blank" class="nav-link"><i class="fa fa-mobile" aria-hidden="true"></i> Hot line: </a>
+              <a href="{{route('home.contact')}}" target="_blank" class="nav-link"><i class="fa fa-mobile" aria-hidden="true"></i>  {{setting('site.hot_line')}}</a>
             </li>
           </ul>
         </div>

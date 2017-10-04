@@ -199,3 +199,9 @@ and open the template in the editor.
 	}
 
 }
+
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
