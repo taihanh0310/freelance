@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="about.html">SẢN PHẨM</a>
+              <a class="nav-link" href="{{route('tat_ca_bai_viet')}}">SẢN PHẨM</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">BÁO GIÁ MÁY NHÔM</a>
