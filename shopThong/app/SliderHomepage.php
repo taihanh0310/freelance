@@ -6,13 +6,13 @@
  * and open the template in the editor.
  */
 
-namespace App\Http\Controllers;
-
+namespace App;
+use Illuminate\Database\Eloquent\Model;
 /**
- * Description of ProductController
+ * Description of SliderHomepage
  *
- * @author Hanh Nguyen <hanh.nguyentai@nashtechglobal.com>
+ * @author hanhnguyen
  */
-class ProductController {
+class SliderHomepage extends Model{
     //put your code here
 }
