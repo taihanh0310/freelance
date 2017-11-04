@@ -9,7 +9,7 @@
             <div class="row">
               <div class="col-md-3 col-sm-6">
                 <div class="aa-footer-widget">
-                  <h3>Main Menu</h3>
+                  <h3>Menu chính</h3>
                   <ul class="aa-footer-nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Our Services</a></li>
@@ -50,11 +50,11 @@
               <div class="col-md-3 col-sm-6">
                 <div class="aa-footer-widget">
                   <div class="aa-footer-widget">
-                    <h3>Contact Us</h3>
+                    <h3>Liên hệ</h3>
                     <address>
-                      <p> 25 Astor Pl, NY 10003, USA</p>
-                      <p><span class="fa fa-phone"></span>+1 212-982-4589</p>
-                      <p><span class="fa fa-envelope"></span>dailyshop@gmail.com</p>
+                      <p> 748 Lê Thị Riêng, Thới An, Quận 12, HCM, VN</p>
+                      <p><span class="fa fa-phone"></span>0971089389 - 0916540698</p>
+                      <p><span class="fa fa-envelope"></span>sale@khomaynhomnhua.vn</p>
                     </address>
                     <div class="aa-footer-social">
                       <a href="#"><span class="fa fa-facebook"></span></a>

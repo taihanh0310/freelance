@@ -9,6 +9,7 @@
 namespace App\Http\Controllers\Fronts;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Fronts\FrontController;
+use Illuminate\Support\Facades\View;
 /**
  * Description of HomeController
  *
@@ -28,7 +29,9 @@ class HomeController extends FrontController{
         // read about shop
         // address
         // front number
-        // email 
+        // email
+        
+        return view('pages.contact');
     }
     
     public function postSendQuestionContact(Request $request){

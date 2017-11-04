@@ -8,49 +8,20 @@
             <div class="aa-header-top-area">
               <!-- start header top left -->
               <div class="aa-header-top-left">
-                <!-- start language -->
-                <div class="aa-language">
-                  <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                      <img src="img/flag/english.jpg" alt="english flag">ENGLISH
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                      <li><a href="#"><img src="img/flag/french.jpg" alt="">FRENCH</a></li>
-                      <li><a href="#"><img src="img/flag/english.jpg" alt="">ENGLISH</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- / language -->
-
-                <!-- start currency -->
-                <div class="aa-currency">
-                  <div class="dropdown">
-                    <a class="btn dropdown-toggle" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                      <i class="fa fa-usd"></i>USD
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                      <li><a href="#"><i class="fa fa-euro"></i>EURO</a></li>
-                      <li><a href="#"><i class="fa fa-jpy"></i>YEN</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- / currency -->
+                
                 <!-- start cellphone -->
                 <div class="cellphone hidden-xs">
-                  <p><span class="fa fa-phone"></span>00-62-658-658</p>
+                  <p><span class="fa fa-phone"></span>0971089389 - 0916540698</p>
                 </div>
                 <!-- / cellphone -->
               </div>
               <!-- / header top left -->
               <div class="aa-header-top-right">
                 <ul class="aa-head-top-nav-right">
-                  <li><a href="account.html">My Account</a></li>
-                  <li class="hidden-xs"><a href="wishlist.html">Wishlist</a></li>
-                  <li class="hidden-xs"><a href="cart.html">My Cart</a></li>
-                  <li class="hidden-xs"><a href="checkout.html">Checkout</a></li>
-                  <li><a href="" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                  <li><a href="account.html">Tài khoản</a></li>
+                  <li class="hidden-xs"><a href="cart.html">Giỏ hàng</a></li>
+                  <li class="hidden-xs"><a href="checkout.html">Thanh toán</a></li>
+                  <li><a href="" data-toggle="modal" data-target="#login-modal">Đăng nhập</a></li>
                 </ul>
               </div>
             </div>
@@ -71,7 +42,7 @@
                 <!-- Text based logo -->
                 <a href="index.html">
                   <span class="fa fa-shopping-cart"></span>
-                  <p>daily<strong>Shop</strong> <span>Your Shopping Partner</span></p>
+                  <p>Smart <strong>Machine</strong> <span>Cùng bạn đi đến thành công</span></p>
                 </a>
                 <!-- img based logo -->
                 <!-- <a href="index.html"><img src="img/logo.jpg" alt="logo img"></a> -->
@@ -118,7 +89,7 @@
               <!-- search box -->
               <div class="aa-search-box">
                 <form action="">
-                  <input type="text" name="" id="" placeholder="Search here ex. 'man' ">
+                  <input type="text" name="" id="" placeholder="Nhập nội dung tìm kiếm ở đây. Ví dụ: Máy nhôm">
                   <button type="submit"><span class="fa fa-search"></span></button>
                 </form>
               </div>
