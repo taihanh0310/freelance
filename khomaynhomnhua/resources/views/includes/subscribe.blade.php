@@ -4,11 +4,11 @@
       <div class="row">
         <div class="col-md-12">
           <div class="aa-subscribe-area">
-            <h3>Subscribe our newsletter </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, velit!</p>
+            <h3>Nhập email để đăng ký theo dõi những sản phẩm mới nhất!</h3>
+            <p>Hãy để cho chúng tôi có cơ hội chăm sóc quý vị, mang đến những điều tốt nhất, tiết kiệm và hiệu quả nhất!</p>
             <form action="" class="aa-subscribe-form">
-              <input type="email" name="" id="" placeholder="Enter your Email">
-              <input type="submit" value="Subscribe">
+              <input type="email" name="" id="" placeholder="Nhập email của bạn">
+              <input type="submit" value="Dăng ký">
             </form>
           </div>
         </div>

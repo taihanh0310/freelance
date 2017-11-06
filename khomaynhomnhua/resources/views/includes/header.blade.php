@@ -18,7 +18,7 @@
               <!-- / header top left -->
               <div class="aa-header-top-right">
                 <ul class="aa-head-top-nav-right">
-                  <li><a href="account.html">Tài khoản</a></li>
+                  <li><a href="{{route('account.register')}}">Tài khoản</a></li>
                   <li class="hidden-xs"><a href="cart.html">Giỏ hàng</a></li>
                   <li class="hidden-xs"><a href="checkout.html">Thanh toán</a></li>
                   <li><a href="" data-toggle="modal" data-target="#login-modal">Đăng nhập</a></li>

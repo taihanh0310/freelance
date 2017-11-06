@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('home/contact', 'HomeController@getContact')->name('home.contact');
+Route::get('account/register', 'Auth\RegisterController@getRegister')->name('account.register');
