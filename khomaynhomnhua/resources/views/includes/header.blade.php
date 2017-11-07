@@ -10,13 +10,13 @@
               <div class="aa-header-top-left">
                 <!-- start cellphone -->
                 <div class="cellphone hidden-xs">
-                  <p><span class="fa fa-phone"></span>0971089389 - 0916540698</p>
+                  <p><span class="fa fa-phone"></span><a title="Gọi ngay" href="tel:0971089389">0971089389</a> - <a title="Gọi ngay" href="tel:0916540698">0916540698</a></p>
                 </div>
                 <!-- / cellphone -->
                 
                 <!-- start address -->
-                <div class="address hidden-xs">
-                  <p><span class="fa fa-address-card"></span>748 Lê Thị Riêng, Quận 12 - Hồ Chí Minh</p>
+                <div class="cellphone hidden-xs">
+                    <p><span class="fa fa-stop-circle"></span><a href="{{route('home.contact')}}">748 Lê Thị Riêng, Quận 12 - Hồ Chí Minh</a></p>
                 </div>
                 <!-- start address -->
               </div>
@@ -45,7 +45,7 @@
               <!-- logo  -->
               <div class="aa-logo">
                 <!-- Text based logo -->
-                <a href="index.html">
+                <a href="{{ route('home') }}">
                   <span class="fa fa-shopping-cart"></span>
                   <p>Smart <strong>Machine</strong> <span>Cùng bạn đi đến thành công</span></p>
                 </a>
@@ -63,7 +63,7 @@
                 <div class="aa-cartbox-summary">
                   <ul>
                     <li>
-                      <a class="aa-cartbox-img" href="#"><img src="img/woman-small-2.jpg" alt="img"></a>
+                      <a class="aa-cartbox-img" href="#"><img src="{{ asset('img/woman-small-2.jpg') }}" alt="img"></a>
                       <div class="aa-cartbox-info">
                         <h4><a href="#">Product Name</a></h4>
                         <p>1 x $250</p>
@@ -71,7 +71,7 @@
                       <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
                     </li>
                     <li>
-                      <a class="aa-cartbox-img" href="#"><img src="img/woman-small-1.jpg" alt="img"></a>
+                      <a class="aa-cartbox-img" href="#"><img src="{{ asset('img/woman-small-1.jpg') }}" alt="img"></a>
                       <div class="aa-cartbox-info">
                         <h4><a href="#">Product Name</a></h4>
                         <p>1 x $250</p>

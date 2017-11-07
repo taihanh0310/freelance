@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\View;
  */
 class HomeController extends FrontController{
     
+    public function index(){
+        return view('pages.homes.index');
+    }
     /**
      * @author Hanh Nguyen <hanh.nguyen1@innotech-vn.com>
      * @todo read about shop

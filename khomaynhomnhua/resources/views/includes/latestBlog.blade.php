@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="aa-latest-blog-area">
-            <h2>LATEST BLOG</h2>
+            <h2>BÀI VIẾT MỚI</h2>
             <div class="row">
               <!-- single latest blog -->
               <div class="col-md-4 col-sm-4">
@@ -19,9 +19,9 @@
                     </figcaption>                          
                   </figure>
                   <div class="aa-blog-info">
-                    <h3 class="aa-blog-title"><a href="#">Lorem ipsum dolor sit amet</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, ad? Autem quos natus nisi aperiam, beatae, fugiat odit vel impedit dicta enim repellendus animi. Expedita quas reprehenderit incidunt, voluptates corporis.</p> 
-                    <a href="#" class="aa-read-mor-btn">Read more <span class="fa fa-long-arrow-right"></span></a>
+                    <h3 class="aa-blog-title"><a href="#">Quy trình sản xuất cửa nhựa UPVC</a></h3>
+                    <p>Quy định này nhằm thống nhất phương pháp sản xuất cửa nhựa uPVC. Quy trình nhằm đảm bảo tính chính xác và tiêu chuẩn sản xuấtcửa của Công ty. Xác định được trách nhiệm và quyền hạn của từng cá nhân, Bộ phận có liên quan.</p> 
+                    <a href="#" class="aa-read-mor-btn">Đọc tiếp <span class="fa fa-long-arrow-right"></span></a>
                   </div>
                 </div>
               </div>
@@ -38,9 +38,9 @@
                     </figcaption>                          
                   </figure>
                   <div class="aa-blog-info">
-                    <h3 class="aa-blog-title"><a href="#">Lorem ipsum dolor sit amet</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, ad? Autem quos natus nisi aperiam, beatae, fugiat odit vel impedit dicta enim repellendus animi. Expedita quas reprehenderit incidunt, voluptates corporis.</p> 
-                     <a href="#" class="aa-read-mor-btn">Read more <span class="fa fa-long-arrow-right"></span></a>         
+                    <h3 class="aa-blog-title"><a href="#">Thế nào là cửa nhựa lõi thép uPVC chuẩn</a></h3>
+                    <p>Thế nào là cửa nhựa lõi thép uPVC có chất lượng Cửa uPVC ngoài những đặc tính ưu việt là khả năng cách âm, cách nhiệt, giúp chống ồn, tiết kiệm điện năng làm mát và sưởi ấm, còn mang</p> 
+                     <a href="#" class="aa-read-mor-btn">Đọc tiếp <span class="fa fa-long-arrow-right"></span></a>         
                   </div>
                 </div>
               </div>
@@ -57,9 +57,9 @@
                     </figcaption>                          
                   </figure>
                   <div class="aa-blog-info">
-                    <h3 class="aa-blog-title"><a href="#">Lorem ipsum dolor sit amet</a></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, ad? Autem quos natus nisi aperiam, beatae, fugiat odit vel impedit dicta enim repellendus animi. Expedita quas reprehenderit incidunt, voluptates corporis.</p> 
-                    <a href="#" class="aa-read-mor-btn">Read more <span class="fa fa-long-arrow-right"></span></a>
+                    <h3 class="aa-blog-title"><a href="#">Đặc điểm của cửa nhôm hệ</a></h3>
+                    <p>Một số đặc điểm của cửa nhôm định hình * Tính bền vững: – Thể hiện ở kết cấu vững chắc của các thanh nhôm được sản xuất theo tiêu chuẩn quốc tế, có thể chịu được mọi sức ép</p> 
+                    <a href="#" class="aa-read-mor-btn">Đọc tiếp <span class="fa fa-long-arrow-right"></span></a>
                   </div>
                 </div>
               </div>

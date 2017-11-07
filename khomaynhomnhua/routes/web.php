@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.contact');
-});
+Route::get('/','Fronts\HomeController@index')->name('home');
 
-Route::get('home/contact', 'HomeController@getContact')->name('home.contact');
-Route::get('account/register', 'Auth\RegisterController@getRegister')->name('account.register');
+Route::get('lien-he', 'Fronts\HomeController@getContact')->name('home.contact');
+Route::post('lien-he', 'Fronts\HomeController@postContact')->name('home.sendContact');
+Route::get('tai-khoan/dang-ki', 'Auth\RegisterController@getRegister')->name('account.register');

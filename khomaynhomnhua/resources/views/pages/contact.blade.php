@@ -1,4 +1,9 @@
 @extends('layouts.master')
+
+@section('headBanner')
+    @include('includes.headBanner')
+@stop 
+
 @section('content')
 <section id="aa-contact">
     <div class="container">
@@ -18,7 +23,7 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <div class="aa-contact-address-left">
-                                    <form class="comments-form contact-form" action="">
+                                    <form class="comments-form contact-form" action="{{ route('home.sendContact') }}" method="post">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">                        

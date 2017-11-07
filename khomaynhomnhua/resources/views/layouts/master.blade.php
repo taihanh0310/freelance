@@ -30,13 +30,25 @@
   <!-- menu -->
   @include('includes.menuTop')
   
-  @yield('topBanner')
+  @yield('slider')
   
   <div id="main_content">
-      @yield('slider')
+      @yield('headBanner')
       
       @yield('content')
   </div>
+  
+   <!-- Support rule -->
+  @include('includes.commitSupportRule')
+  <!-- end support rules -->
+  
+  <!-- Latest Blog -->
+  @include('includes.latestBlog')
+  <!-- End lastest Blog -->
+  
+  <!-- clientBrand.blade section -->
+ @include('includes.clientBrand')
+  <!-- / clientBrand.blade section -->
   
   <!-- Subscribe section -->
  @include('includes.subscribe')
@@ -69,6 +81,7 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div>    
-
+  
+  @include('includes.javascript')
   </body>
 </html>

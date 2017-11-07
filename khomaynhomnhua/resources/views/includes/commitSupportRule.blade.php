@@ -8,7 +8,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="aa-support-single">
                 <span class="fa fa-truck"></span>
-                <h4>FREE SHIPPING</h4>
+                <h4>MIỂN PHÍ VẬN CHUYỂN</h4>
                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis.</P>
               </div>
             </div>
@@ -16,15 +16,15 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="aa-support-single">
                 <span class="fa fa-clock-o"></span>
-                <h4>30 DAYS MONEY BACK</h4>
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis.</P>
+                <h4>HOÀN TIỀN TRONG VÒNG 30 NGÀY</h4>
+                <P>Nếu sản phẩm có lỗi trong 30 ngày đầu, chúng tôi sẽ đổi/hoàn tiền lại cho quý vị.</P>
               </div>
             </div>
             <!-- single support -->
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="aa-support-single">
                 <span class="fa fa-phone"></span>
-                <h4>SUPPORT 24/7</h4>
+                <h4>HỘ TRỢ 24/7</h4>
                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nobis.</P>
               </div>
             </div>
