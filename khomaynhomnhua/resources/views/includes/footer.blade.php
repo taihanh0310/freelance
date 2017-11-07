@@ -81,17 +81,6 @@
         </div>
     </div>
     <!-- footer-bottom -->
-    <div class="end_footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 content_ft">
-                    <p class="edit_copyright">© 2017. Công ty TNHH TM Tiên Đạt Hải Mobile, 665 Lê Hồng Phong P10 Q10 TpHCM - MST: 0310617427 do Sở KHĐT TPHCM cấp ngày 29/1/2011</p>
-                    <p class="edit_copyright">Chịu trách nhiệm nội dung: BROSHOP.VN</p>
-                    <p class="copyright_warning">© Copyright 2017 BROSHOP. All rights reserved. <span class="hd_mobile">|</span> <span class="blo_mobile"> Phát triển bởi <a href="https://www.bizweb.vn/?utm_source=site-khach-hang&amp;utm_campaign=referral_bizweb&amp;utm_medium=footer&amp;utm_content=cung-cap-boi-bizweb">Bizweb</a></span></p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="aa-footer-bottom">
         <div class="container">
             <div class="row">
