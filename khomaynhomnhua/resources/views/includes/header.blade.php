@@ -8,12 +8,17 @@
             <div class="aa-header-top-area">
               <!-- start header top left -->
               <div class="aa-header-top-left">
-                
                 <!-- start cellphone -->
                 <div class="cellphone hidden-xs">
                   <p><span class="fa fa-phone"></span>0971089389 - 0916540698</p>
                 </div>
                 <!-- / cellphone -->
+                
+                <!-- start address -->
+                <div class="address hidden-xs">
+                  <p><span class="fa fa-address-card"></span>748 Lê Thị Riêng, Quận 12 - Hồ Chí Minh</p>
+                </div>
+                <!-- start address -->
               </div>
               <!-- / header top left -->
               <div class="aa-header-top-right">

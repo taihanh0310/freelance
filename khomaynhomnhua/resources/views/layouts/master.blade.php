@@ -9,7 +9,8 @@
     @include('includes.head')
 
   </head>
-  <body class="app-container"> 
+  <body class="app-container">
+   @include('includes.facebookPlugin')
    <!-- wpf loader Two -->
     <div id="wpf-loader-two">          
       <div class="wpf-loader-two-inner">
