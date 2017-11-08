@@ -1,3 +1,11 @@
+<!-- google gtag -->
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109363553-1');
+  </script>
 <!-- Font awesome -->
     <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
     <!-- Bootstrap -->
