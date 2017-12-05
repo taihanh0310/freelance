@@ -13,6 +13,6 @@
 
 Route::get('/','Fronts\HomeController@index')->name('home');
 
-Route::get('lien-he', 'Fronts\HomeController@getContact')->name('home.contact');
-Route::post('lien-he', 'Fronts\HomeController@postContact')->name('home.sendContact');
-Route::get('tai-khoan/dang-ki', 'Auth\RegisterController@getRegister')->name('account.register');
+Route::get('contact', 'Fronts\HomeController@getContact')->name('home.contact');
+Route::post('contact', 'Fronts\HomeController@postContact')->name('home.sendContact');
+Route::get('account/register', 'Auth\RegisterController@getRegister')->name('account.register');
