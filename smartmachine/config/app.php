@@ -4,6 +4,26 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Name
+    |--------------------------------------------------------------------------
+    |
+    | This value is the name of your application. This value is used when the
+    | framework needs to place the application's name in a notification or
+    | any other location as required by the application or its packages.
+    */
+    'name' => 'My Application',
+
+    /*
+   |--------------------------------------------------------------------------
+   | Application cache
+   |--------------------------------------------------------------------------
+   | Set this to true to use the cache decorators, this will greatly improve
+   | the application speed and performance
+   */
+    'cache' => env('APP_CACHE', false),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------
     |
@@ -40,6 +60,15 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Allow static translations to be editable via GUI
+    |--------------------------------------------------------------------------
+    | Enabling this will have slight performance hit,
+    | about 20 to 50ms page load time increase.
+    */
+    'translations-gui' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -107,8 +136,8 @@ return [
     | Available Settings: "single", "daily", "syslog", "errorlog"
     |
     */
-
     'log' => env('APP_LOG', 'single'),
+    'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
     /*
     |--------------------------------------------------------------------------
@@ -147,6 +176,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Illuminate\Notifications\NotificationServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -154,9 +184,11 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
-        Dwij\Laraadmin\LAProvider::class
+        Laravel\Tinker\TinkerServiceProvider::class,
 
+        Modules\Core\Providers\AsgardServiceProvider::class,
+
+        App\Providers\RouteServiceProvider::class,
     ],
 
     /*
@@ -202,7 +234,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'Notification' => Illuminate\Support\Facades\Notification::class,
     ],
 
 ];

@@ -1,20 +1,6 @@
 <?php
 
 return [
-
-    /*
-    |--------------------------------------------------------------------------
-    | PDO Fetch Style
-    |--------------------------------------------------------------------------
-    |
-    | By default, database results will be returned as instances of the PHP
-    | stdClass object; however, you may desire to retrieve records in an
-    | array format for simplicity. Here you can tweak the fetch style.
-    |
-    */
-
-    'fetch' => PDO::FETCH_CLASS,
-
     /*
     |--------------------------------------------------------------------------
     | Default Database Connection Name
@@ -25,9 +11,7 @@ return [
     | you may use many connections at once using the Database library.
     |
     */
-
     'default' => env('DB_CONNECTION', 'mysql'),
-
     /*
     |--------------------------------------------------------------------------
     | Database Connections
@@ -43,35 +27,29 @@ return [
     | choice installed on your machine before you begin development.
     |
     */
-
     'connections' => [
-
         'sqlite' => [
             'driver' => 'sqlite',
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
         ],
-
         'mysql' => [
             'driver' => 'mysql',
-            'dump_command_path' => '/opt/lampp/bin', // only the path, so without 'mysqldump' or 'pg_dump'
-            'dump_command_timeout' => 60 * 5, // 5 minute timeout
-            'dump_using_single_transaction' => true, // perform dump using a single transaction
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
-            'charset' => 'utf8',
-            'collation' => 'utf8_unicode_ci',
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
             'strict' => false,
             'engine' => null,
         ],
-
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
@@ -79,10 +57,19 @@ return [
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
+            'sslmode' => 'prefer',
         ],
-
+        'sqlsrv' => [
+            'driver' => 'sqlsrv',
+            'host' => env('DB_HOST', 'localhost'),
+            'port' => env('DB_PORT', '1433'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
+            'charset' => 'utf8',
+            'prefix' => '',
+        ],
     ],
-
     /*
     |--------------------------------------------------------------------------
     | Migration Repository Table
@@ -93,9 +80,7 @@ return [
     | the migrations on disk haven't actually been run in the database.
     |
     */
-
     'migrations' => 'migrations',
-
     /*
     |--------------------------------------------------------------------------
     | Redis Databases
@@ -106,18 +91,13 @@ return [
     | such as APC or Memcached. Laravel makes it easy to dig right in.
     |
     */
-
     'redis' => [
-
-        'cluster' => false,
-
+        'client' => 'predis',
         'default' => [
-            'host' => env('REDIS_HOST', 'localhost'),
+            'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD', null),
             'port' => env('REDIS_PORT', 6379),
             'database' => 0,
         ],
-
     ],
-
 ];

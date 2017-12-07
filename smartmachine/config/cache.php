@@ -13,7 +13,15 @@ return [
     |
     */
 
-    'default' => env('CACHE_DRIVER', 'file'),
+    'default' => env('CACHE_DRIVER', 'array'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Cache Time
+    |--------------------------------------------------------------------------
+    | The default cache time in minutes used on the Cache Decorators
+    */
+    'time' => 60,
 
     /*
     |--------------------------------------------------------------------------
@@ -63,6 +71,10 @@ return [
             'connection' => 'default',
         ],
 
+        'translations' => [
+            'driver' => env('TRANSLATIONS_CACHE_DRIVER', 'file'),
+            'path' => storage_path('framework/cache'),
+        ],
     ],
 
     /*

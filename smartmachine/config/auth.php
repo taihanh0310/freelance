@@ -37,7 +37,7 @@ return [
 
     'guards' => [
         'web' => [
-            'driver' => 'session',
+            'driver' => 'sentinel-guard',
             'provider' => 'users',
         ],
 
@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => Modules\User\Entities\Sentinel\User::class,
         ],
 
         // 'users' => [
