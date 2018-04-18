@@ -9,35 +9,12 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Core">
-            <directory>./Modules/Core/Tests/</directory>
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./tests/Feature</directory>
         </testsuite>
-        <testsuite name="Dashboard">
-            <directory>./Modules/Dashboard/Tests/</directory>
-        </testsuite>
-        <testsuite name="Media">
-            <directory>./Modules/Media/Tests/</directory>
-        </testsuite>
-        <testsuite name="Menu">
-            <directory>./Modules/Menu/Tests/</directory>
-        </testsuite>
-        <testsuite name="Page">
-            <directory>./Modules/Page/Tests/</directory>
-        </testsuite>
-        <testsuite name="Setting">
-            <directory>./Modules/Setting/Tests/</directory>
-        </testsuite>
-        <testsuite name="Tag">
-            <directory>./Modules/Tag/Tests/</directory>
-        </testsuite>
-        <testsuite name="Translation">
-            <directory>./Modules/Translation/Tests/</directory>
-        </testsuite>
-        <testsuite name="User">
-            <directory>./Modules/User/Tests/</directory>
-        </testsuite>
-        <testsuite name="Workshop">
-            <directory>./Modules/Workshop/Tests/</directory>
+
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
         </testsuite>
     </testsuites>
     <filter>
@@ -47,7 +24,6 @@
     </filter>
     <php>
         <env name="APP_ENV" value="testing"/>
-        <env name="APP_URL" value="http://localhost"/>
         <env name="CACHE_DRIVER" value="array"/>
         <env name="SESSION_DRIVER" value="array"/>
         <env name="QUEUE_DRIVER" value="sync"/>

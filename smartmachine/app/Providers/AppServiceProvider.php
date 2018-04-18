@@ -2,9 +2,8 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -16,10 +15,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
-
-        Carbon::serializeUsing(function ($carbon) {
-            return $carbon->format('d/m/y H:i:s');
-        });
     }
 
     /**
@@ -29,8 +24,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        if ($this->app->environment() === 'local') {
-            $this->app->register('\Barryvdh\Debugbar\ServiceProvider');
-        }
+        //
     }
 }

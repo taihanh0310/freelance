@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tcg/voyager": "^1.0"
+    }
+}
